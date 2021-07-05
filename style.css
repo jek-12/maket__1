@@ -1,0 +1,132 @@
+body {
+    height: 1150px;
+    width: 960px;
+    padding: 0 10px;
+    margin: auto;
+}
+hr {
+    margin: 15px 0; /* stylization for the horizontal line between the blocks: header/middle, footer/middle */
+}
+.common_color_1 {
+    background-color: #777777;   /* common_color_1 used for blocks: 2-4, 10-12  */
+}
+.common_color_2 {
+    background-color: #DCDCDC;   /* common_color_2 used for blocks: 5, 8, 9  */
+}
+.common_height_75 {
+    height: 75px;
+}
+.common_margin_left {
+    margin-left: auto;
+}
+.common_flex_column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.common_flex_without_column {
+    display: flex;
+    justify-content: space-between;
+}
+.common_for_list {
+    font-family: Arial, serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ffffff;
+}
+.common_for_text {
+    font-family: Arial, serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: #777777;
+    text-align: justify;
+    padding: 5px 18px 10px;
+}
+#header {
+    margin: 20px 0 0 0;
+}
+#header img {
+    height: 108px;
+    width: 122px;
+}
+#header_center_block {
+    width: 279px;
+}
+#header_right_block {
+    width: 513px;
+}
+#header_right_block p {
+    text-align: right;
+    line-height: 10px;
+    margin-right: 20px;
+}
+#header_number {
+    margin-top: 25px;
+}
+.header_p {
+    text-decoration: underline;
+}
+#middle {
+    display: flex;
+}
+#sidebar {
+    height: 770px;
+}
+#sidebar_top {
+    height: 335px;
+    width: 180px;
+}
+#sidebar_list {
+    list-style-type: none;
+    padding-left: 20px;
+}
+#sidebar img {
+    height: 134px;
+    width: 180px;
+}
+#top_of_middle_content {
+    height: 210px;
+}
+#top_of_middle_content ul {
+    margin-left: 50px;
+}
+#top_of_middle_p {
+    margin-top: 7px;
+}
+#central_img_of_the_middle {
+    display: flex;
+    flex-wrap: wrap;
+    width: 757px;
+}
+.central_img {
+    height: 153px;
+    width: 134px;
+}
+#last_central_img {
+    margin-left: 22px;
+}
+.margin_img {
+    margin-top: 22px;
+}
+#lower_middle_blocks {
+    height: 200px;
+    width: 757px;
+}
+.lower_middle_block {
+    width: 367px;
+}
+#footer {
+    height: 180px;
+    width: 960px;
+}
+.footer_left_and_center_blocks {
+    width: 297px;
+}
+#footer_left_list {
+    column-count: 2;
+    list-style-type: none;
+    padding-left: 20px;
+}
+#footer_right_blocks img {
+    width: 308px;
+}
